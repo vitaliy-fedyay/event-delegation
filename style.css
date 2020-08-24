@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+}
+
+tr:nth-child(2n) {
+  background: blueviolet;
+  height: 200px;
+}
+
+tr:nth-child(2n + 1) {
+  background: chartreuse;
+  height: 200px;
+}
